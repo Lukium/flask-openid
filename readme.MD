@@ -1,0 +1,1 @@
+All Credits to Original Developers, see setup.py for more info

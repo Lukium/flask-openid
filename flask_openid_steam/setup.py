@@ -27,15 +27,16 @@ if not os.path.exists("./docs/_themes/README"):
     sys.exit(1)
 
 setup(
-    name='Flask-OpenID',
-    version='1.3.0',
-    url='http://github.com/mitsuhiko/flask-openid/',
+    name='Flask-OpenID-Steam',
+    version='1.3.1',
+    url='http://github.com/lukium/flask-openid/',
     license='BSD',
-    author='Armin Ronacher, Patrick Uiterwijk, Jarek Potiuk, Jason R. Coombs, Emmanuel Bavoux',
+    author='Armin Ronacher, Patrick Uiterwijk, Jarek Potiuk, Jason R. Coombs, Emmanuel Bavoux, Lukium',
     author_email='armin.ronacher@active-4.com, puiterwijk@redhat.com, jarek@potiuk.com, '
-                 'jaraco@jaraco.com, emmanuel.bavoux@free2move.com',
+                 'jaraco@jaraco.com, emmanuel.bavoux@free2move.com, mrlukium@outlook.com',
     description='OpenID support for Flask',
-    py_modules=['flask_openid'],
+    long_description='Patched version of Flask-OpenID to support Steam OpenID without errors.',
+    py_modules=['flask_openid_steam'],
     zip_safe=False,
     platforms='any',
     install_requires=['Flask>=0.10.1', 'python3-openid>=2.0'],

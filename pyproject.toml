@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask_openid_steam"
+version = "1.3.1"
+description = "Patched version of Flask-OpenID to support Steam OpenID without errors."
+authors = ["Lukium <mrlukium@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.2"
+python3-openid = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
